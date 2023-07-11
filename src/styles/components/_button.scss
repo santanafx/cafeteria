@@ -1,0 +1,16 @@
+.buttonContainer {
+  padding-top: 40px;
+  position: relative;
+  a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid $cor-secundaria;
+    padding: 15px 30px;
+    border-radius: 5px;
+    position: absolute;
+    transition: 1s;
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+}

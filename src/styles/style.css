@@ -9,6 +9,7 @@
   width: 100%;
   margin: 0 auto;
   background-color: #3b3b3b;
+  border-bottom: 1.5px solid #707070;
 }
 .headerContainer nav {
   width: 95%;
@@ -16,19 +17,19 @@
   display: flex;
   height: 80px;
 }
-.headerContainer nav .headerImgContainer {
-  width: 30%;
+.headerContainer nav .headerLogoContainer {
+  width: 20%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
-.headerContainer nav .headerImgContainer img {
+.headerContainer nav .headerLogoContainer img {
   max-width: 130px;
   display: block;
   border-bottom: 4px solid transparent;
 }
 .headerContainer nav .headerMenuOpt {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -62,4 +63,90 @@
   border: 1px solid #dba36a;
   padding: 15px 30px;
   border-radius: 5px;
+}
+
+.homeCafeteriaBgImg {
+  width: 100%;
+  background-image: url(../../../public/images/delicious-food.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+.homeCafeteriaBgImg .homeCafeteriaContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.homeCafeteriaBgImg .homeCafeteriaContainer h4 {
+  padding-top: 60px;
+  font-family: "Sacramento", cursive;
+  color: #dba36a;
+  font-size: 2rem;
+}
+.homeCafeteriaBgImg .homeCafeteriaContainer h1 {
+  color: white;
+  font-size: 6rem;
+  max-width: 780px;
+}
+
+.aboutCafeteriaBg {
+  background-color: #3b3b3b;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutCafeteriaBg .aboutCafeteriaContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.aboutCafeteriaBg .aboutCafeteriaContainer div img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 500px;
+}
+.aboutCafeteriaBg .aboutCafeteriaContainer div {
+  max-width: 460px;
+}
+.aboutCafeteriaBg .aboutCafeteriaContainer div h4 {
+  font-family: "Sacramento", cursive;
+  color: #dba36a;
+  font-size: 2rem;
+}
+.aboutCafeteriaBg .aboutCafeteriaContainer div h1 {
+  color: white;
+  font-size: 2.5rem;
+  max-width: 780px;
+  margin-bottom: 20px;
+}
+.aboutCafeteriaBg .aboutCafeteriaContainer div p {
+  color: rgb(201, 201, 201);
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.aboutCafeteriaBg .aboutCafeteriaContainer div span {
+  color: rgb(146, 146, 146);
+  text-align: justify;
+}
+
+.buttonContainer {
+  padding-top: 40px;
+  position: relative;
+}
+.buttonContainer a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #dba36a;
+  padding: 15px 30px;
+  border-radius: 5px;
+  position: absolute;
+  transition: 1s;
+}
+.buttonContainer a:hover {
+  transform: translateY(-10px);
 }/*# sourceMappingURL=style.css.map */

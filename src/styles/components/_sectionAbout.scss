@@ -1,0 +1,45 @@
+.aboutCafeteriaBg {
+  background-color: $cor-primaria;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .aboutCafeteriaContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    div {
+      img {
+        width: 100%;
+        object-fit: cover;
+        max-height: 500px;
+      }
+    }
+    div {
+      max-width: 460px;
+      h4 {
+        font-family: $fonte-secundaria;
+        color: $cor-secundaria;
+        font-size: 2rem;
+      }
+      h1 {
+        color: white;
+        font-size: 2.5rem;
+        max-width: 780px;
+        margin-bottom: 20px;
+      }
+      p {
+        color: rgb(201, 201, 201);
+        font-size: 1rem;
+        text-align: justify;
+        margin-bottom: 15px;
+      }
+      span {
+        color: rgb(146, 146, 146);
+        text-align: justify;
+      }
+    }
+  }
+}
