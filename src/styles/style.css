@@ -39,7 +39,7 @@
   align-items: center;
   text-decoration: none;
   color: #dba36a;
-  margin: 0 12.5px;
+  padding: 0 12.5px;
   min-width: 40px;
   height: 80px;
   border-bottom: 4px solid transparent;
@@ -65,7 +65,7 @@
   border-radius: 5px;
 }
 
-.homeCafeteriaBgImg {
+.deliciousCafeteriaBgImg {
   width: 100%;
   background-image: url(../../../public/images/delicious-food.jpg);
   background-position: center center;
@@ -73,17 +73,17 @@
   background-size: cover;
   min-height: 90vh;
 }
-.homeCafeteriaBgImg .homeCafeteriaContainer {
+.deliciousCafeteriaBgImg .deliciousCafeteriaContainer {
   width: 80%;
   margin: 0 auto;
 }
-.homeCafeteriaBgImg .homeCafeteriaContainer h4 {
+.deliciousCafeteriaBgImg .deliciousCafeteriaContainer h4 {
   padding-top: 60px;
   font-family: "Sacramento", cursive;
   color: #dba36a;
   font-size: 2rem;
 }
-.homeCafeteriaBgImg .homeCafeteriaContainer h1 {
+.deliciousCafeteriaBgImg .deliciousCafeteriaContainer h1 {
   color: white;
   font-size: 6rem;
   max-width: 780px;
@@ -91,7 +91,7 @@
 
 .aboutCafeteriaBg {
   background-color: #3b3b3b;
-  height: 50vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,6 +132,61 @@
 .aboutCafeteriaBg .aboutCafeteriaContainer div span {
   color: rgb(146, 146, 146);
   text-align: justify;
+}
+
+.foodCafeteriaBg {
+  width: 100%;
+  min-height: 50vh;
+  background-color: #11191f;
+  display: flex;
+  align-items: center;
+}
+.foodCafeteriaBg .foodCafeteriaContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.foodCafeteriaBg .foodCafeteriaContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 280px;
+  position: relative;
+}
+.foodCafeteriaBg .foodCafeteriaContainer div div {
+  width: 60px;
+  margin-bottom: 80px;
+}
+.foodCafeteriaBg .foodCafeteriaContainer div div img {
+  position: absolute;
+  z-index: 2;
+  max-width: 100%;
+  display: block;
+}
+.foodCafeteriaBg .foodCafeteriaContainer div .circle {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  background-color: #0d1317;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.foodCafeteriaBg .foodCafeteriaContainer div h4 {
+  font-size: 1.7rem;
+  color: #ffe5ab;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.foodCafeteriaBg .foodCafeteriaContainer div h5 {
+  font-size: 0.8rem;
+  color: #ffe5ab;
+  text-align: center;
 }
 
 .buttonContainer {
