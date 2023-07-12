@@ -68,7 +68,7 @@
 
 .deliciousCafeteriaBgImg {
   width: 100%;
-  background-image: url(../../../public/images/delicious-food.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../../../public/images/delicious-food.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -286,6 +286,64 @@
 .numbersCafeteriaBg .numbersCafeteriaContainer div span {
   font-size: 1rem;
   color: white;
+}
+
+.reviewCafeteriaBg {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../public/images/food-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.reviewCafeteriaBg .reviewCafeteriaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.reviewCafeteriaBg .reviewCafeteriaContainer .reviewQuote {
+  width: 60px;
+  height: 60px;
+  background-color: #dba36a;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.reviewCafeteriaBg .reviewCafeteriaContainer .reviewQuote span {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+}
+.reviewCafeteriaBg .reviewCafeteriaContainer .reviewCafeteriaText {
+  max-width: 760px;
+  margin-bottom: 20px;
+}
+.reviewCafeteriaBg .reviewCafeteriaContainer .reviewCafeteriaText h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 35px;
+}
+.reviewCafeteriaBg .reviewCafeteriaContainer .reviewCafeteriaImg {
+  width: 100px;
+  height: 100px;
+}
+.reviewCafeteriaBg .reviewCafeteriaContainer .reviewCafeteriaImg img {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+.reviewCafeteriaBg .reviewCafeteriaContainer h3 {
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #dba36a;
 }
 
 .buttonContainer {

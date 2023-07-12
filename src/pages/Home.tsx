@@ -4,6 +4,7 @@ import { SectionDelicious } from "../components/SectionDelicious";
 import { SectionDiscover } from "../components/SectionDiscover";
 import { SectionFood } from "../components/SectionFood";
 import { SectionNumbers } from "../components/SectionNumbers";
+import { SectionReview } from "../components/SectionReview";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
         <SectionFood />
         <SectionDiscover />
         <SectionNumbers />
+        <SectionReview />
       </main>
     </>
   );

@@ -1,0 +1,59 @@
+.reviewCafeteriaBg {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../../public/images/food-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  .reviewCafeteriaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    .reviewQuote {
+      width: 60px;
+      height: 60px;
+      background-color: $cor-secundaria;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      position: relative;
+      span {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 5rem;
+      }
+    }
+    .reviewCafeteriaText {
+      max-width: 760px;
+      margin-bottom: 20px;
+      h2 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 35px;
+      }
+    }
+    .reviewCafeteriaImg {
+      width: 100px;
+      height: 100px;
+
+      img {
+        max-width: 100%;
+        display: block;
+        border-radius: 5px;
+      }
+    }
+    h3 {
+      font-family: $fonte-secundaria;
+      font-size: 2rem;
+      font-weight: 400;
+      color: $cor-secundaria;
+    }
+  }
+}
