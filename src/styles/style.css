@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -187,6 +188,104 @@
   font-size: 0.8rem;
   color: #ffe5ab;
   text-align: center;
+}
+
+.discoverCafeteriaBg {
+  background-color: #3b3b3b;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discoverCafeteriaBg .discoverCafeteriaContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  height: 100%;
+  position: relative;
+}
+.discoverCafeteriaBg .discoverCafeteriaContainer .discoverCafeteriaService {
+  max-width: 460px;
+}
+.discoverCafeteriaBg .discoverCafeteriaContainer .discoverCafeteriaService h4 {
+  font-family: "Sacramento", cursive;
+  color: #dba36a;
+  font-size: 2rem;
+}
+.discoverCafeteriaBg .discoverCafeteriaContainer .discoverCafeteriaService h1 {
+  color: white;
+  font-size: 2.5rem;
+  max-width: 780px;
+  margin-bottom: 20px;
+}
+.discoverCafeteriaBg .discoverCafeteriaContainer .discoverCafeteriaService p {
+  color: rgb(201, 201, 201);
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.discoverCafeteriaBg .discoverCafeteriaContainer .discoverCafeteriaService ul {
+  list-style: none;
+}
+.discoverCafeteriaBg .discoverCafeteriaContainer .discoverCafeteriaService ul li {
+  color: white;
+  margin-bottom: 10px;
+}
+.discoverCafeteriaBg .discoverCafeteriaContainer .discoverCafeteriaService ul li:before {
+  content: "✓";
+  font-weight: bolder;
+  color: #ffe5ab;
+}
+.discoverCafeteriaBg .discoverCafeteriaContainer .discoverEmptyContainer {
+  width: 460px;
+}
+.discoverCafeteriaBg .discoverCafeteriaContainer .discoverCafeteriaImg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 60%;
+  background-image: url(../../../public/images/food-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 50%;
+}
+
+.numbersCafeteriaBg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../public/images/numbers-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 40vh;
+}
+.numbersCafeteriaBg .numbersCafeteriaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 40vh;
+}
+.numbersCafeteriaBg .numbersCafeteriaContainer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 100px;
+}
+.numbersCafeteriaBg .numbersCafeteriaContainer div h3 {
+  font-size: 3rem;
+  color: white;
+}
+.numbersCafeteriaBg .numbersCafeteriaContainer div span {
+  font-size: 1rem;
+  color: white;
 }
 
 .buttonContainer {
