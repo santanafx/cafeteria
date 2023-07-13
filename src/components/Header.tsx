@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Header = () => {
   return (
     <header className="headerContainer">
@@ -6,15 +8,15 @@ export const Header = () => {
           <img src="./images/logo.jpg" alt="Logo da cafeteria." />
         </div>
         <div className="headerMenuOpt">
-          <a href="">Home</a>
-          <a href="">About us</a>
-          <a href="">Menu</a>
-          <a href="">Our Chef</a>
-          <a href="">Reservation</a>
-          <a href="">Contact us</a>
+          <Link to="/">Home</Link>
+          <Link to="/">About us</Link>
+          <Link to="/menu">Menu</Link>
+          <Link to="/">Our Chef</Link>
+          <Link to="/">Reservation</Link>
+          <Link to="/">Contact us</Link>
         </div>
         <div className="headerReservation">
-          <a href="">Reservation</a>
+          <Link to="/">Reservation</Link>
         </div>
       </nav>
     </header>

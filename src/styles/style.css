@@ -11,6 +11,9 @@
   margin: 0 auto;
   background-color: #3b3b3b;
   border-bottom: 1.5px solid #707070;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 .headerContainer nav {
   width: 95%;
@@ -159,7 +162,7 @@
   margin: 0 auto;
 }
 .deliciousCafeteriaBgImg .deliciousCafeteriaContainer h4 {
-  padding-top: 60px;
+  padding-top: 260px;
   font-family: "Sacramento", cursive;
   color: #dba36a;
   font-size: 2rem;
@@ -424,6 +427,27 @@
   font-size: 2rem;
   font-weight: 400;
   color: #dba36a;
+}
+
+.foodMenuContainerBg {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../../public/images/food-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #feefd0;
+}
+.foodMenuContainerBg span {
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+}
+.foodMenuContainerBg h1 {
+  font-size: 5rem;
 }
 
 .buttonContainer {

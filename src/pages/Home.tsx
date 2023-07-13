@@ -7,15 +7,13 @@ import { SectionReview } from "../components/SectionReview";
 
 export const Home = () => {
   return (
-    <>
-      <main>
-        <SectionDelicious />
-        <SectionAbout />
-        <SectionFood />
-        <SectionDiscover />
-        <SectionNumbers />
-        <SectionReview />
-      </main>
-    </>
+    <main>
+      <SectionDelicious />
+      <SectionAbout />
+      <SectionFood />
+      <SectionDiscover />
+      <SectionNumbers />
+      <SectionReview />
+    </main>
   );
 };
