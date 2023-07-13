@@ -1,4 +1,3 @@
-import { Header } from "../components/Header";
 import { SectionAbout } from "../components/SectionAbout";
 import { SectionDelicious } from "../components/SectionDelicious";
 import { SectionDiscover } from "../components/SectionDiscover";
@@ -9,7 +8,6 @@ import { SectionReview } from "../components/SectionReview";
 export const Home = () => {
   return (
     <>
-      <Header />
       <main>
         <SectionDelicious />
         <SectionAbout />
