@@ -1,5 +1,7 @@
 import { Comida } from "./Comida";
 import { breakFastObj } from "./ComidasBreakfast";
+import { dinnerObj } from "./ComidasDinner";
+import { lunchObj } from "./ComidasLunch";
 
 interface CardapiosProps {
   breakfast: boolean;
@@ -44,6 +46,7 @@ export const SectionMenuList = ({
             <>
               {breakFastObj.map((element) => (
                 <Comida
+                  key={JSON.stringify(element)}
                   imgLink={element.imgLink}
                   nomeComida={element.nomeComida}
                   descricaoComida={element.descricaoComida}
@@ -56,8 +59,9 @@ export const SectionMenuList = ({
           )}
           {lunch === true ? (
             <>
-              {breakFastObj.map((element) => (
+              {lunchObj.map((element) => (
                 <Comida
+                  key={JSON.stringify(element)}
                   imgLink={element.imgLink}
                   nomeComida={element.nomeComida}
                   descricaoComida={element.descricaoComida}
@@ -70,8 +74,9 @@ export const SectionMenuList = ({
           )}
           {dinner === true ? (
             <>
-              {breakFastObj.map((element) => (
+              {dinnerObj.map((element) => (
                 <Comida
+                  key={JSON.stringify(element)}
                   imgLink={element.imgLink}
                   nomeComida={element.nomeComida}
                   descricaoComida={element.descricaoComida}
