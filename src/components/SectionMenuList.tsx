@@ -1,7 +1,7 @@
 import { Comida } from "./Comida";
-import { breakFastObj } from "./ComidasBreakfast";
-import { dinnerObj } from "./ComidasDinner";
-import { lunchObj } from "./ComidasLunch";
+import { breakFastObj } from "../data/ComidasBreakfast";
+import { dinnerObj } from "../data/ComidasDinner";
+import { lunchObj } from "../data/ComidasLunch";
 
 interface CardapiosProps {
   breakfast: boolean;
