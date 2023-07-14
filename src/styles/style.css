@@ -550,36 +550,36 @@
   font-weight: 600;
 }
 
-.menuListBreakfastContainerBg {
+.menuListContainerBg {
   width: 100%;
   background-color: #11191f;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-.menuListBreakfastContainerBg .menuListBreakfastContainer {
-  width: 90%;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
 }
-.menuListBreakfastContainerBg .menuListBreakfastContainer h4 {
+.menuListContainerBg .menuListContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 120px 0;
+}
+.menuListContainerBg .menuListContainer h4 {
   font-family: "Sacramento", cursive;
   color: #dba36a;
   font-size: 2rem;
 }
-.menuListBreakfastContainerBg .menuListBreakfastContainer h1 {
+.menuListContainerBg .menuListContainer h1 {
   color: #feefd0;
   font-size: 3.6rem;
   margin-bottom: 80px;
 }
-.menuListBreakfastContainerBg .menuListBreakfastContainer .menuListBreakfast {
+.menuListContainerBg .menuListContainer .menuList {
   display: flex;
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  max-width: 1140px;
 }
 
 .buttonContainer {
