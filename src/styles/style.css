@@ -550,6 +550,38 @@
   font-weight: 600;
 }
 
+.menuListBreakfastContainerBg {
+  width: 100%;
+  background-color: #11191f;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.menuListBreakfastContainerBg .menuListBreakfastContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.menuListBreakfastContainerBg .menuListBreakfastContainer h4 {
+  font-family: "Sacramento", cursive;
+  color: #dba36a;
+  font-size: 2rem;
+}
+.menuListBreakfastContainerBg .menuListBreakfastContainer h1 {
+  color: #feefd0;
+  font-size: 3.6rem;
+  margin-bottom: 80px;
+}
+.menuListBreakfastContainerBg .menuListBreakfastContainer .menuListBreakfast {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
 .buttonContainer {
   padding-top: 40px;
   position: relative;
@@ -565,4 +597,32 @@
 }
 .buttonContainer a:hover {
   transform: translateY(-10px);
+}
+
+.comidaContainer {
+  max-width: 550px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: black;
+  padding: 20px 25px;
+  border-radius: 20px;
+}
+.comidaContainer img {
+  width: 85px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 55px;
+  border-radius: 10px;
+}
+.comidaContainer div h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+.comidaContainer div span {
+  color: #3b3b3b;
+  font-weight: 500;
+}
+.comidaContainer p {
+  color: #dba36a;
 }/*# sourceMappingURL=style.css.map */
