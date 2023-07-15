@@ -9,14 +9,10 @@ export const Header = () => {
         </div>
         <div className="headerMenuOpt">
           <Link to="/">Home</Link>
-          <Link to="/">About us</Link>
           <Link to="/menu">Menu</Link>
-          <Link to="/">Our Chef</Link>
-          <Link to="/">Reservation</Link>
-          <Link to="/">Contact us</Link>
         </div>
         <div className="headerReservation">
-          <Link to="/">Cart</Link>
+          <Link to="/">View Cart</Link>
         </div>
       </nav>
     </header>

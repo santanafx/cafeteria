@@ -1,30 +1,4 @@
-// import React from "react";
-
 export const SectionNumbersMenu = () => {
-  // React.useEffect(() => {
-  //   const counters = document.querySelectorAll(".numbersMenucounter");
-
-  //   counters.forEach((counter) => {
-  //     const initialCount = 0;
-  //     const dataSet = counter.dataset.count as string;
-  //     const finalCount = Number(dataSet);
-
-  //     console.log(initialCount);
-  //     console.log(finalCount);
-
-  //          const counting = setInterval((updateCounting,1)=>{
-  //     function updateCounting(){
-  //       initialCount= initialCount+1;
-  //       counter.innerText = initialCount;
-
-  //       if(initialCount >= finalCount){
-  //         clearInterval(counting);
-  //       }
-  //     }
-  //           },1)
-  //   });
-  // });
-
   return (
     <section className="numbersMenuContainerBg">
       <div className="numbersMenuContainer">
