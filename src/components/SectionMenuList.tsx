@@ -47,6 +47,7 @@ export const SectionMenuList = ({
               {breakFastObj.map((element) => (
                 <Comida
                   key={JSON.stringify(element)}
+                  id={element.id}
                   imgLink={element.imgLink}
                   nomeComida={element.nomeComida}
                   descricaoComida={element.descricaoComida}
@@ -62,6 +63,7 @@ export const SectionMenuList = ({
               {lunchObj.map((element) => (
                 <Comida
                   key={JSON.stringify(element)}
+                  id={element.id}
                   imgLink={element.imgLink}
                   nomeComida={element.nomeComida}
                   descricaoComida={element.descricaoComida}
@@ -77,6 +79,7 @@ export const SectionMenuList = ({
               {dinnerObj.map((element) => (
                 <Comida
                   key={JSON.stringify(element)}
+                  id={element.id}
                   imgLink={element.imgLink}
                   nomeComida={element.nomeComida}
                   descricaoComida={element.descricaoComida}

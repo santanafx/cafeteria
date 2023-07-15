@@ -622,7 +622,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   min-height: 55px;
-  max-height: 110px;
+  max-height: 80px;
   border-radius: 10px;
 }
 .comidaContainer div h3 {
