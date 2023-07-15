@@ -1,0 +1,97 @@
+.contactFormBg {
+  background-color: $cor-quarta;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contactFormContainer {
+    color: $cor-terciaria;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    .contactFormContainerGetIn {
+      max-width: 480px;
+      h3 {
+        font-family: $fonte-secundaria;
+        color: $cor-secundaria;
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+      h4 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        line-height: 25px;
+        text-align: justify;
+      }
+      .contactFormList {
+        display: flex;
+
+        gap: 20px;
+        svg {
+          color: $cor-secundaria;
+        }
+        .contactFormListSpan {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 20px;
+          span {
+            &:nth-child(1) {
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+    .contactFormInputs {
+      background-color: black;
+      padding: 40px;
+      min-width: 480px;
+      color: $cor-terciaria;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h2 {
+        color: white;
+      }
+      span {
+        color: $cor-primaria;
+      }
+      input {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+      }
+      textarea {
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        resize: none;
+        min-height: 120px;
+      }
+      button {
+        padding: 20px 30px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
+        background-color: $cor-secundaria;
+        transition: 0.3s;
+        &:hover {
+          cursor: pointer;
+          color: black;
+        }
+      }
+    }
+  }
+}

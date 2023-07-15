@@ -664,6 +664,101 @@
   color: #feefd0;
 }
 
+.contactFormBg {
+  background-color: #11191f;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactFormBg .contactFormContainer {
+  color: #feefd0;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.contactFormBg .contactFormContainer .contactFormContainerGetIn {
+  max-width: 480px;
+}
+.contactFormBg .contactFormContainer .contactFormContainerGetIn h3 {
+  font-family: "Sacramento", cursive;
+  color: #dba36a;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.contactFormBg .contactFormContainer .contactFormContainerGetIn h4 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.contactFormBg .contactFormContainer .contactFormContainerGetIn p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  line-height: 25px;
+  text-align: justify;
+}
+.contactFormBg .contactFormContainer .contactFormContainerGetIn .contactFormList {
+  display: flex;
+  gap: 20px;
+}
+.contactFormBg .contactFormContainer .contactFormContainerGetIn .contactFormList svg {
+  color: #dba36a;
+}
+.contactFormBg .contactFormContainer .contactFormContainerGetIn .contactFormList .contactFormListSpan {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.contactFormBg .contactFormContainer .contactFormContainerGetIn .contactFormList .contactFormListSpan span:nth-child(1) {
+  font-weight: bold;
+}
+.contactFormBg .contactFormContainer .contactFormInputs {
+  background-color: black;
+  padding: 40px;
+  min-width: 480px;
+  color: #feefd0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contactFormBg .contactFormContainer .contactFormInputs h2 {
+  color: white;
+}
+.contactFormBg .contactFormContainer .contactFormInputs span {
+  color: #3b3b3b;
+}
+.contactFormBg .contactFormContainer .contactFormInputs input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.contactFormBg .contactFormContainer .contactFormInputs textarea {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  resize: none;
+  min-height: 120px;
+}
+.contactFormBg .contactFormContainer .contactFormInputs button {
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #dba36a;
+  transition: 0.3s;
+}
+.contactFormBg .contactFormContainer .contactFormInputs button:hover {
+  cursor: pointer;
+  color: black;
+}
+
 .buttonContainer {
   padding-top: 40px;
   position: relative;
