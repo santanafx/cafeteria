@@ -1,7 +1,6 @@
 import { Comida } from "./Comida";
-import { breakFastObj } from "../data/ComidasBreakfast";
-import { dinnerObj } from "../data/ComidasDinner";
-import { lunchObj } from "../data/ComidasLunch";
+import { comidasListaObj } from "../data/ComidasLista";
+import { ComidaObj } from "../data/ComidasLista";
 
 interface CardapiosProps {
   breakfast: boolean;
@@ -14,6 +13,16 @@ export const SectionMenuList = ({
   lunch,
   dinner,
 }: CardapiosProps) => {
+  const breakfastItems: ComidaObj[] = comidasListaObj.filter(
+    (item) => item.id <= 8
+  );
+  const lunchItems: ComidaObj[] = comidasListaObj.filter(
+    (item) => item.id > 8 && item.id <= 16
+  );
+  const dinnerItems: ComidaObj[] = comidasListaObj.filter(
+    (item) => item.id > 16 && item.id <= 24
+  );
+
   return (
     <section className="menuListContainerBg">
       <div className="menuListContainer">
@@ -44,7 +53,7 @@ export const SectionMenuList = ({
         <div className="menuList">
           {breakfast === true ? (
             <>
-              {breakFastObj.map((element) => (
+              {breakfastItems.map((element) => (
                 <Comida
                   key={JSON.stringify(element)}
                   id={element.id}
@@ -60,7 +69,7 @@ export const SectionMenuList = ({
           )}
           {lunch === true ? (
             <>
-              {lunchObj.map((element) => (
+              {lunchItems.map((element) => (
                 <Comida
                   key={JSON.stringify(element)}
                   id={element.id}
@@ -76,7 +85,7 @@ export const SectionMenuList = ({
           )}
           {dinner === true ? (
             <>
-              {dinnerObj.map((element) => (
+              {dinnerItems.map((element) => (
                 <Comida
                   key={JSON.stringify(element)}
                   id={element.id}

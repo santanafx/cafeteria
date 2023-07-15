@@ -14,6 +14,8 @@ type GlobalContext = {
   increaseCartQuantity: (id: number) => void;
   decreaseCartQuantity: (id: number) => void;
   removeFromCart: (ide: number) => void;
+  cartQuantity: number;
+  cartItems: CartItem[];
 };
 
 const GlobalContext = React.createContext({} as GlobalContext);
@@ -26,6 +28,11 @@ export function GlobalContextProvider({
   children,
 }: GlobalContextProviderProps) {
   const [cartItems, setCartItems] = React.useState<CartItem[]>([]);
+
+  const cartQuantity = cartItems.reduce(
+    (quantity, item) => item.quantity + quantity,
+    0
+  );
 
   function getItemQuantity(id: number) {
     return cartItems.find((item) => item.id === id)?.quantity || 0;
@@ -74,6 +81,8 @@ export function GlobalContextProvider({
         increaseCartQuantity,
         decreaseCartQuantity,
         removeFromCart,
+        cartItems,
+        cartQuantity,
       }}
     >
       {children}
