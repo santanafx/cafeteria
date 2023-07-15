@@ -20,6 +20,7 @@ export const Header = () => {
         <div className="headerMenuOpt">
           <Link to="/">Home</Link>
           <Link to="/menu">Menu</Link>
+          <Link to="/contact">Contact us</Link>
         </div>
         <div className="headerViewCart">
           <button onClick={() => handleOpenCart(openCart)}>View Cart</button>

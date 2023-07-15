@@ -25,6 +25,9 @@ export const Cart = ({ openCart, handleOpenCart }: CartProps) => {
             }, 0)}
           </span>
         </div>
+        <div className="cartButtonOrder">
+          <button>Order</button>
+        </div>
       </div>
     </div>
   );
