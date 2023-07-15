@@ -76,8 +76,8 @@
 }
 .headerContainer nav .headerViewCart span {
   position: absolute;
-  top: 60%;
-  left: 36.2%;
+  top: 0;
+  left: 0;
   font-size: 0.7rem;
   background-color: #dba36a;
   width: 25px;
@@ -200,7 +200,7 @@
 
 .deliciousCafeteriaBgImg {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../../../public/images/delicious-food.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/images/delicious-food.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -380,7 +380,7 @@
   bottom: 0;
   right: 0;
   left: 60%;
-  background-image: url(../../../public/images/food-1.jpg);
+  background-image: url(/images/food-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -389,7 +389,7 @@
 }
 
 .numbersCafeteriaBg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../public/images/numbers-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/numbers-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -422,7 +422,7 @@
 
 .reviewCafeteriaBg {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../public/images/food-1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/food-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
