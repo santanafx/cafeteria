@@ -821,8 +821,7 @@
 }
 .contactFormBg .contactFormContainer .contactFormInputs {
   background-color: black;
-  padding: 40px;
-  min-width: 480px;
+  padding: 40px 80px;
   color: #feefd0;
   display: flex;
   flex-direction: column;

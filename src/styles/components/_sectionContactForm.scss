@@ -1,6 +1,5 @@
 .contactFormBg {
     background-color: $cor-quarta;
-    // height: 90vh;
     padding: 30px 0;
     width: 100%;
     display: flex;
@@ -55,8 +54,7 @@
         }
         .contactFormInputs {
             background-color: black;
-            padding: 40px;
-            min-width: 480px;
+            padding: 40px 80px;
             color: $cor-terciaria;
             display: flex;
             flex-direction: column;
