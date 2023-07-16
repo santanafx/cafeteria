@@ -949,8 +949,7 @@
   background-color: transparent;
   height: 50px;
   width: 90px;
-  align-self: flex-end;
-  justify-self: flex-end;
+  align-self: center;
 }
 .comidaContainer .comidaButtonAddRemove:hover {
   cursor: pointer;
