@@ -728,7 +728,7 @@
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-  max-width: 1140px;
+  max-width: 1150px;
 }
 
 .menuBgContainer {
@@ -991,7 +991,8 @@
   display: flex;
   justify-content: space-between;
   margin: 15px 15px;
-  gap: 10px;
+  gap: 5px;
+  width: 300px;
 }
 .cartItemContainer img {
   width: 100px;
@@ -1004,6 +1005,7 @@
 .cartItemContainer h1 {
   color: #feefd0;
   font-size: 1rem;
+  word-break: break-all;
 }
 .cartItemContainer p {
   color: rgb(146, 146, 146);
