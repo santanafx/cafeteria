@@ -1,21 +1,24 @@
 .foodMenuContainerBg {
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../../../public/images/food-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: $cor-terciaria;
-  span {
-    font-family: $fonte-secundaria;
-    font-size: 2rem;
-  }
-  h1 {
-    font-size: 5rem;
-  }
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../../../public/images/food-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $cor-terciaria;
+    span {
+        font-family: $fonte-secundaria;
+        font-size: 2rem;
+    }
+    h1 {
+        font-size: 5rem;
+        @media screen and (max-width: 600px) {
+            font-size: 3.5rem;
+        }
+    }
 }

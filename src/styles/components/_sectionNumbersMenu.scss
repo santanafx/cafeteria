@@ -1,27 +1,32 @@
 .numbersMenuContainerBg {
-  width: 100%;
-  background-color: $cor-quarta;
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .numbersMenuContainer {
-    width: 90%;
+    width: 100%;
+    background-color: $cor-quarta;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    .numbersMenuImgs {
-      display: flex;
-      align-items: center;
-      color: $cor-terciaria;
-      gap: 20px;
-      p {
-        font-size: 2rem;
-      }
-      span {
-        font-size: 1rem;
-      }
+    @media screen and (max-width: 600px) {
+        height: 50vh;
     }
-  }
+    .numbersMenuContainer {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+
+        .numbersMenuImgs {
+            display: flex;
+            align-items: center;
+            color: $cor-terciaria;
+            gap: 20px;
+            p {
+                font-size: 2rem;
+            }
+            span {
+                font-size: 1rem;
+            }
+        }
+    }
 }

@@ -1,56 +1,63 @@
 .foodCafeteriaBg {
-  width: 100%;
-  min-height: 50vh;
-  background-color: $cor-quarta;
-  display: flex;
-  align-items: center;
-  .foodCafeteriaContainer {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    min-height: 50vh;
+    background-color: $cor-quarta;
     display: flex;
-    justify-content: center;
-    gap: 80px;
-    div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      max-width: 280px;
-      position: relative;
-
-      div {
-        width: 60px;
-        margin-bottom: 80px;
-
-        img {
-          position: absolute;
-          z-index: 2;
-          max-width: 100%;
-          display: block;
-        }
-      }
-      .circle {
-        position: absolute;
-        height: 120px;
-        width: 120px;
-        background-color: $cor-bola;
-        border-radius: 50%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 1;
-      }
-      h4 {
-        font-size: 1.7rem;
-        color: $cor-terciaria;
-        text-align: center;
-        margin-bottom: 10px;
-      }
-      h5 {
-        font-size: 0.8rem;
-        color: $cor-terciaria;
-        text-align: center;
-      }
+    align-items: center;
+    @media screen and (max-width: 900px) {
+        height: 90vh;
     }
-  }
+    .foodCafeteriaContainer {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        @media screen and (max-width: 900px) {
+            flex-direction: column;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 280px;
+            position: relative;
+
+            div {
+                width: 60px;
+                margin-bottom: 80px;
+
+                img {
+                    position: absolute;
+                    z-index: 2;
+                    max-width: 100%;
+                    display: block;
+                }
+            }
+            .circle {
+                position: absolute;
+                height: 120px;
+                width: 120px;
+                background-color: $cor-bola;
+                border-radius: 50%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+            }
+            h4 {
+                font-size: 1.7rem;
+                color: $cor-terciaria;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            h5 {
+                font-size: 0.8rem;
+                color: $cor-terciaria;
+                text-align: center;
+            }
+        }
+    }
 }
