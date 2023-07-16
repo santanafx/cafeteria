@@ -1,12 +1,13 @@
 .discoverCafeteriaBg {
     background-color: $cor-primaria;
-    height: 60vh;
+    // height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    @media screen and (max-width: 900px) {
-        height: 80vh;
-    }
+    // @media screen and (max-width: 900px) {
+    //     height: 80vh;
+    // }
+    padding: 100px 0;
     .discoverCafeteriaContainer {
         width: 80%;
         margin: 0 auto;
@@ -16,6 +17,10 @@
         gap: 120px;
         height: 100%;
         position: relative;
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+        }
+
         .discoverCafeteriaService {
             max-width: 460px;
             h4 {
@@ -63,6 +68,9 @@
             background-size: contain;
             height: 100%;
             width: 50%;
+            @media screen and (max-width: 1000px) {
+                display: none;
+            }
         }
     }
 }

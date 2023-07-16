@@ -151,17 +151,11 @@
 }
 .footerBg {
   width: 100%;
-  height: 50vh;
   background-color: #3b3b3b;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-@media screen and (max-width: 900px) {
-  .footerBg {
-    height: 110vh;
-  }
 }
 .footerBg .footerCafeteriaContainer {
   width: 90%;
@@ -169,7 +163,7 @@
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #11191f;
-  padding: 100px 0;
+  padding: 40px 0;
 }
 @media screen and (max-width: 900px) {
   .footerBg .footerCafeteriaContainer {
@@ -250,8 +244,12 @@
   gap: 20px;
 }
 .footerBg .footerCopyRight {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #feefd0;
-  padding: 20px 0;
+  background-color: #3b3b3b;
 }
 
 .deliciousCafeteriaBgImg {
@@ -260,22 +258,16 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 90vh;
+  padding: 150px 0;
 }
 .deliciousCafeteriaBgImg .deliciousCafeteriaContainer {
   width: 80%;
   margin: 0 auto;
 }
 .deliciousCafeteriaBgImg .deliciousCafeteriaContainer h4 {
-  padding-top: 260px;
   font-family: "Sacramento", cursive;
   color: #dba36a;
   font-size: 2rem;
-}
-@media screen and (max-width: 900px) {
-  .deliciousCafeteriaBgImg .deliciousCafeteriaContainer h4 {
-    padding-top: 150px;
-  }
 }
 .deliciousCafeteriaBgImg .deliciousCafeteriaContainer h1 {
   color: white;
@@ -290,17 +282,23 @@
 
 .aboutCafeteriaBg {
   background-color: #3b3b3b;
-  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 70px 0;
 }
 .aboutCafeteriaBg .aboutCafeteriaContainer {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 60px;
+}
+@media screen and (max-width: 1000px) {
+  .aboutCafeteriaBg .aboutCafeteriaContainer {
+    flex-direction: column;
+  }
 }
 .aboutCafeteriaBg .aboutCafeteriaContainer div img {
   width: 100%;
@@ -335,15 +333,10 @@
 
 .foodCafeteriaBg {
   width: 100%;
-  min-height: 50vh;
   background-color: #11191f;
   display: flex;
   align-items: center;
-}
-@media screen and (max-width: 900px) {
-  .foodCafeteriaBg {
-    height: 90vh;
-  }
+  padding: 100px 0;
 }
 .foodCafeteriaBg .foodCafeteriaContainer {
   width: 80%;
@@ -401,15 +394,10 @@
 
 .discoverCafeteriaBg {
   background-color: #3b3b3b;
-  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-@media screen and (max-width: 900px) {
-  .discoverCafeteriaBg {
-    height: 80vh;
-  }
+  padding: 100px 0;
 }
 .discoverCafeteriaBg .discoverCafeteriaContainer {
   width: 80%;
@@ -420,6 +408,11 @@
   gap: 120px;
   height: 100%;
   position: relative;
+}
+@media screen and (max-width: 1000px) {
+  .discoverCafeteriaBg .discoverCafeteriaContainer {
+    flex-direction: column;
+  }
 }
 .discoverCafeteriaBg .discoverCafeteriaContainer .discoverCafeteriaService {
   max-width: 460px;
@@ -469,6 +462,11 @@
   height: 100%;
   width: 50%;
 }
+@media screen and (max-width: 1000px) {
+  .discoverCafeteriaBg .discoverCafeteriaContainer .discoverCafeteriaImg {
+    display: none;
+  }
+}
 
 .numbersCafeteriaBg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/numbers-bg.jpg);
@@ -477,7 +475,7 @@
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 50vh;
+  padding: 30px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -488,8 +486,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 90%;
-  margin: 0 auto;
-  height: 40vh;
+  gap: 10px;
 }
 .numbersCafeteriaBg .numbersCafeteriaContainer div {
   display: flex;
@@ -512,7 +509,6 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 50vh;
   color: white;
   display: flex;
   align-items: center;
@@ -523,6 +519,7 @@
   align-items: center;
   width: 90%;
   margin: 0 auto;
+  padding: 40px 0;
 }
 .reviewCafeteriaBg .reviewCafeteriaContainer .reviewQuote {
   width: 60px;
