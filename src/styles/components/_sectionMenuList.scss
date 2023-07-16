@@ -1,31 +1,31 @@
 .menuListContainerBg {
-  width: 100%;
-  background-color: $cor-quarta;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  .menuListContainer {
-    width: 90%;
+    width: 100%;
+    background-color: $cor-quarta;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 120px 0;
-    h4 {
-      font-family: $fonte-secundaria;
-      color: $cor-secundaria;
-      font-size: 2rem;
+    .menuListContainer {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 120px 0;
+        h4 {
+            font-family: $fonte-secundaria;
+            color: $cor-secundaria;
+            font-size: 2rem;
+        }
+        h1 {
+            color: $cor-terciaria;
+            font-size: 3.6rem;
+            margin-bottom: 80px;
+        }
+        .menuList {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            max-width: 1140px;
+        }
     }
-    h1 {
-      color: $cor-terciaria;
-      font-size: 3.6rem;
-      margin-bottom: 80px;
-    }
-    .menuList {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      flex-wrap: wrap;
-      max-width: 1140px;
-    }
-  }
 }

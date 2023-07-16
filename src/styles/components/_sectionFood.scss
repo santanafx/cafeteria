@@ -1,13 +1,9 @@
 .foodCafeteriaBg {
     width: 100%;
-    // min-height: 50vh;
     background-color: $cor-quarta;
     display: flex;
     align-items: center;
     padding: 100px 0;
-    // @media screen and (max-width: 900px) {
-    //     height: 90vh;
-    // }
     .foodCafeteriaContainer {
         width: 80%;
         margin: 0 auto;

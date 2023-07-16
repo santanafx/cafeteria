@@ -1,13 +1,9 @@
 .aboutCafeteriaBg {
     background-color: $cor-primaria;
-    // height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 70px 0;
-    // @media screen and (max-width: 1000px) {
-    //     height: 90vh;
-    // }
     .aboutCafeteriaContainer {
         width: 80%;
         margin: 0 auto;

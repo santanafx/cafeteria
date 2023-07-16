@@ -5,19 +5,14 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    // min-height: 90vh;
     padding: 150px 0;
     .deliciousCafeteriaContainer {
         width: 80%;
         margin: 0 auto;
         h4 {
-            // padding-top: 260px;
             font-family: $fonte-secundaria;
             color: $cor-secundaria;
             font-size: 2rem;
-            // @media screen and (max-width: 900px) {
-            //     padding-top: 150px;
-            // }
         }
         h1 {
             color: white;

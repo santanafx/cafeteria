@@ -1,38 +1,38 @@
 .cartItemContainer {
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 15px;
-  gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px;
+    gap: 10px;
 
-  img {
-    width: 100px;
-    object-fit: cover;
-    max-height: 100px;
-    min-height: 100px;
-    border-radius: 10px;
-  }
-  h1 {
-    color: $cor-terciaria;
-    font-size: 1rem;
-  }
-  p {
-    color: rgb(146, 146, 146);
-    font-size: 1rem;
-  }
-  span {
-    color: white;
-    font-size: 1rem;
-  }
-  .cartItemButton {
-    color: white;
-    border: 1px solid $cor-secundaria;
-    border-radius: 5px;
-    background-color: transparent;
-    height: 30px;
-    &:hover {
-      cursor: pointer;
-      color: $cor-secundaria;
-      border: 1px solid white;
+    img {
+        width: 100px;
+        object-fit: cover;
+        max-height: 100px;
+        min-height: 100px;
+        border-radius: 10px;
     }
-  }
+    h1 {
+        color: $cor-terciaria;
+        font-size: 1rem;
+    }
+    p {
+        color: rgb(146, 146, 146);
+        font-size: 1rem;
+    }
+    span {
+        color: white;
+        font-size: 1rem;
+    }
+    .cartItemButton {
+        color: white;
+        border: 1px solid $cor-secundaria;
+        border-radius: 5px;
+        background-color: transparent;
+        height: 30px;
+        &:hover {
+            cursor: pointer;
+            color: $cor-secundaria;
+            border: 1px solid white;
+        }
+    }
 }

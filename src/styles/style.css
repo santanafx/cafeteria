@@ -475,7 +475,7 @@
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  padding: 30px 0;
+  padding: 150px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -567,7 +567,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 60vh;
+  padding: 150px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -590,15 +590,10 @@
 .numbersMenuContainerBg {
   width: 100%;
   background-color: #11191f;
-  height: 40vh;
+  padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-@media screen and (max-width: 600px) {
-  .numbersMenuContainerBg {
-    height: 50vh;
-  }
 }
 .numbersMenuContainerBg .numbersMenuContainer {
   width: 90%;
@@ -624,20 +619,10 @@
 .ourMenuContainerBg {
   width: 100%;
   background-color: #0d1317;
-  height: 100vh;
+  padding: 30px 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-@media screen and (max-width: 1320px) {
-  .ourMenuContainerBg {
-    height: 130vh;
-  }
-}
-@media screen and (max-width: 659px) {
-  .ourMenuContainerBg {
-    height: 220vh;
-  }
 }
 .ourMenuContainerBg .ourMenuContainer {
   width: 90%;

@@ -1,67 +1,67 @@
 .comidaContainer {
-  max-width: 550px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  background-color: black;
-  padding: 20px 25px;
-  border-radius: 20px;
-
-  img {
-    width: 85px;
-    object-fit: cover;
-    min-height: 55px;
-    max-height: 80px;
-    border-radius: 10px;
-  }
-  div {
-    h3 {
-      color: white;
-      margin-bottom: 10px;
-    }
-    span {
-      color: $cor-primaria;
-      font-weight: 500;
-    }
-  }
-  p {
-    color: $cor-secundaria;
-  }
-  .comidaButtonsContainer {
+    max-width: 550px;
     display: flex;
-    flex-direction: column;
-  }
-  .comidaButtonPlusMinusContainer {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 30px;
-    .comidaButtonPlusMinus {
-      color: white;
-      background-color: black;
-      border: none;
-      margin: 0 20px;
-      &:hover {
-        cursor: pointer;
+    gap: 20px;
+    background-color: black;
+    padding: 20px 25px;
+    border-radius: 20px;
+
+    img {
+        width: 85px;
+        object-fit: cover;
+        min-height: 55px;
+        max-height: 80px;
+        border-radius: 10px;
+    }
+    div {
+        h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        span {
+            color: $cor-primaria;
+            font-weight: 500;
+        }
+    }
+    p {
         color: $cor-secundaria;
-      }
     }
-    span {
-      color: white;
+    .comidaButtonsContainer {
+        display: flex;
+        flex-direction: column;
     }
-  }
-  .comidaButtonAddRemove {
-    color: white;
-    border: 1px solid $cor-secundaria;
-    border-radius: 5px;
-    background-color: transparent;
-    height: 50px;
-    max-width: 150px;
-    min-width: 150px;
-    &:hover {
-      cursor: pointer;
-      color: $cor-secundaria;
-      border: 1px solid white;
+    .comidaButtonPlusMinusContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        .comidaButtonPlusMinus {
+            color: white;
+            background-color: black;
+            border: none;
+            margin: 0 20px;
+            &:hover {
+                cursor: pointer;
+                color: $cor-secundaria;
+            }
+        }
+        span {
+            color: white;
+        }
     }
-  }
+    .comidaButtonAddRemove {
+        color: white;
+        border: 1px solid $cor-secundaria;
+        border-radius: 5px;
+        background-color: transparent;
+        height: 50px;
+        max-width: 150px;
+        min-width: 150px;
+        &:hover {
+            cursor: pointer;
+            color: $cor-secundaria;
+            border: 1px solid white;
+        }
+    }
 }
